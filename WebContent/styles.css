@@ -1,0 +1,128 @@
+@charset "UTF-8";
+* {
+	font-family: 'Avenir Next';
+}
+body {
+	background-image: url("images/background.jpg");
+	background-color: #cccccc;
+}
+
+#map {
+        height: 100%;
+      }
+
+h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+h3 {
+	color: white;
+	font-size: 35px;
+	font-family: 'Avenir Next';
+}
+
+table.resultsTable {
+  width: 95%;
+  border-collapse: separate;
+  border-spacing: 0px;
+  border: solid black 2px;
+  border-radius: 8px;
+  background: #d9d9d9;
+  font-weight: normal;
+  opacity: 0.95;
+}
+
+table.resultsTable tbody{
+overflow:scroll;
+}
+
+tr.resultsTR {
+  text-align: center;
+  font-weight: bold;
+  border-top: solid black 1px;
+  font-weight: normal;
+  padding: 2px
+}
+
+td.resultsTD {
+  background: #d9d9d9;
+  text-align: center;
+  font-weight: normal;
+  border-top: solid black 1px;
+  border-radius: 0px;
+  padding: 2px
+}
+
+td.resultsTD:first-child {
+  border-left: none;
+}
+
+td.resultsTD:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+td.resultsTD:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+input[type=submit].resultsSubmit {
+	background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+	font-size: 40px;
+	color: white;
+}
+
+.blackBar {
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height:60px;
+   background-color:black;
+   color: white;
+}
+
+.centerCluster {
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 100vh;
+}
+
+.cityNameInput {
+    width: 200px;
+    height: 20px;
+    padding-right: 50px;
+}
+
+.cityNameSubmit {
+    margin-left: -25px;
+    height: 20px;
+    width: 20px;
+    border: 0;
+    background:url("images/magnifying_glass.jpeg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.centerButton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
